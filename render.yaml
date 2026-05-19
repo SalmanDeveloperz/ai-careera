@@ -1,0 +1,13 @@
+services:
+  - type: web_service
+    name: ai-careera-backend
+    env: node
+    plan: free
+    branch: main
+    rootDirectory: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGO_URI
+      - key: JWT_SECRET
+      - key: GOOGLE_API_KEY

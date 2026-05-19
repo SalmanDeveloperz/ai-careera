@@ -1,0 +1,13 @@
+[build]
+  base = "frontend"
+  publish = "frontend/build"
+  command = "npm install && npm run build"
+
+[build.environment]
+  # Set this in Netlify UI to your deployed backend URL
+  REACT_APP_API_URL = "https://<YOUR_BACKEND_URL>"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
