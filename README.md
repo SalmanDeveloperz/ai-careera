@@ -1,1 +1,3 @@
-# career-counselling by Sabtain Ahmad
+# ai-careera
+
+AI-powered career guidance application for Pakistani university students.
