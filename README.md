@@ -1,10 +1,10 @@
-# AI Career Counselling
+# Ai Careera
 
 This repository contains a React frontend and an Express backend for a career counselling application.
 
 ## Project structure
 
-- `frontend/` – React app
+- `frontend/` – React application
 - `backend/` – Node/Express API
 
 ## Deployment recommendation
